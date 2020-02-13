@@ -32,7 +32,8 @@ set laststatus=2        " helps the lightline plugin showup
 set splitbelow          " opens any new panes below
 
 " my snippets
-nnoremap ,html :-1read $HOME/.vim/.snippets/htmldoc<CR>3jwf>a
+nnoremap ,html :-1read $HOME/.vim/snippets/htmldoc<CR>3jwf>a
+nnoremap ,vue  :-1read $HOME/.vim/snippets/vuedoc<CR>
 
 " install vim-plug
 call plug#begin('~/.vim/plugged')

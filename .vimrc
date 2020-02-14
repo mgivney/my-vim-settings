@@ -35,9 +35,3 @@ set splitbelow          " opens any new panes below
 nnoremap ,html :-1read $HOME/.vim/snippets/htmldoc<CR>3jwf>a
 nnoremap ,vue  :-1read $HOME/.vim/snippets/vuedoc<CR>
 
-" install vim-plug
-call plug#begin('~/.vim/plugged')
-
-Plug 'lifepillar/vim-mucomplete'
-
-call plug#end()
